@@ -1,0 +1,80 @@
+{
+  "original_sha256": "c011b982ed37f720d418c1092ae989e8f1fdccea7144ba3f9e36002798241416",
+  "patched_sha256": "9683b154dddd7cdabe87562db6c9f117ac3b74ee37cbd8e98c40db6f5841351a",
+  "original_bytes": 974848,
+  "patched_bytes": 978944,
+  "helper_rva": "0x4b0000",
+  "helper_raw_offset": "0xee000",
+  "helper_bytes": 105,
+  "hook_rva": "0x4a806",
+  "edits": [
+    {
+      "offset": "0x4a68f",
+      "old": "f0000000",
+      "new": "29010000",
+      "reason": "Move Management/System anchor down 57 px; label, highlight and hit bounds move together"
+    },
+    {
+      "offset": "0x4a6d7",
+      "old": "f0000000",
+      "new": "29010000",
+      "reason": "Move Management/System anchor down 57 px; label, highlight and hit bounds move together"
+    },
+    {
+      "offset": "0x4a7ab",
+      "old": "f0000000",
+      "new": "29010000",
+      "reason": "Move Management/System anchor down 57 px; label, highlight and hit bounds move together"
+    },
+    {
+      "offset": "0x4a7ef",
+      "old": "f0000000",
+      "new": "29010000",
+      "reason": "Move Management/System anchor down 57 px; label, highlight and hit bounds move together"
+    },
+    {
+      "offset": "0x4a806",
+      "old": "893544dd4810",
+      "new": "e8f557460090",
+      "reason": "Call Diary helper after original SEH state reset; helper replays selected-ID initialization"
+    },
+    {
+      "offset": "0xdfb0a",
+      "old": "0838",
+      "new": "0808",
+      "reason": "Neutralize HIGHLOW relocation for replaced absolute operand"
+    },
+    {
+      "offset": "0xe6",
+      "old": "0400",
+      "new": "0500",
+      "reason": "Add .diary section"
+    },
+    {
+      "offset": "0xfc",
+      "old": "00f00a00",
+      "new": "00000b00",
+      "reason": "Increase SizeOfCode"
+    },
+    {
+      "offset": "0x130",
+      "old": "00004b00",
+      "new": "00104b00",
+      "reason": "Increase SizeOfImage"
+    },
+    {
+      "offset": "0x278",
+      "old": "00000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "new": "2e646961727900006900000000004b000010000000e00e0000000000000000000000000020000060",
+      "reason": "Read/execute code section, no writable executable permission"
+    }
+  ],
+  "layout_shift_y": 57,
+  "notes": [
+    "Reconstructed additive Diary control; not an exact historical layout claim",
+    "Adventure ID100 unchanged; Diary ID102 added in both branches",
+    "Existing System path, including Save/Load, unchanged",
+    "No SPR changes",
+    "No live debugging; VM execution pending"
+  ]
+}

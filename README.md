@@ -12,6 +12,7 @@ Only Clausewitz currently has recovered biography content: eleven passages found
 
 ## Files
 
+- `dll/README.md`: exact Diary DLL changes, reproducible patching, and rollback.
 - `STATUS.md`: evidence status and next steps.
 - `TEST_LOG.md`: offline and user-reported runtime results.
 - `ego/tools/stage5/build_reader.py`: reproducible Clausewitz reader builder.

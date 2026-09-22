@@ -14,3 +14,7 @@ These are user-reported Windows 98 / 86Box observations in the EGO restoration t
 Stage-5 and stage-6 Python builders are in ego/tools. Earlier outputs, rollback resources and full evidence are retained under the Git-ignored ego/local-archive directory. Original management notes are retained under Git-ignored local-notes.
 
 Next: recover other character content while retaining the verified navigation and Clausewitz reader baseline. No new game patch or VM installation was performed during repository preparation.
+
+## DLL patch documentation
+
+The additive Diary patch is documented in dll/README.md with exact edits, supported hashes, helper source bytes and a reversible patch tool. The earlier Adventure redirect is explicitly historical. Full game binaries remain excluded.

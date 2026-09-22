@@ -13,3 +13,7 @@ The user reported all ten pages open and return to Personal Information, then ex
 ## Repository preparation
 
 Copied reproducible builders and preserved evidence locally. Game binaries, generated archives and original game prose excluded from Git. No Win98 test or game installation was performed in this step.
+
+## DLL patch publication checks
+
+Rebuilt the additive Diary DLL from both supported original and historical diagnostic inputs using the published helper.hex patcher; outputs matched the delivered SHA-256. Undo reproduced the original. Unsupported inputs and existing output paths were rejected. Archived40-case CPU-emulation evidence is included but was not rerun. No game installation occurred.

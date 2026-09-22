@@ -1,0 +1,2943 @@
+{
+  "status": "passed",
+  "cases": 40,
+  "method": "Unicorn executes patched constructor blocks and original actual control/base constructors; heap allocation/free and state-setting endpoints are stubbed; original callback, EGO dispatch, and recursive destruction code also execute. PE relocations applied at both bases. Not a full Windows/game test.",
+  "results": [
+    {
+      "callback_and_ego_dispatch_verified": true,
+      "all_controls_freed_once": true,
+      "base": "0x10000000",
+      "alternate": false,
+      "management": false,
+      "allocation_failure_index": null,
+      "controls": {
+        "100": {
+          "rect": [
+            506,
+            13,
+            619,
+            56
+          ],
+          "frames": [
+            1,
+            0,
+            0
+          ],
+          "highlight": 18,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "101": {
+          "rect": [
+            506,
+            71,
+            619,
+            116
+          ],
+          "frames": [
+            3,
+            2,
+            2
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "104": {
+          "rect": [
+            534,
+            243,
+            619,
+            289
+          ],
+          "frames": [
+            9,
+            8,
+            8
+          ],
+          "highlight": 21,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "102": {
+          "rect": [
+            506,
+            128,
+            620,
+            173
+          ],
+          "frames": [
+            5,
+            4,
+            4
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            240
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": true,
+      "all_controls_freed_once": true,
+      "base": "0x10000000",
+      "alternate": false,
+      "management": false,
+      "allocation_failure_index": 0,
+      "controls": {
+        "101": {
+          "rect": [
+            506,
+            71,
+            619,
+            116
+          ],
+          "frames": [
+            3,
+            2,
+            2
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "104": {
+          "rect": [
+            534,
+            243,
+            619,
+            289
+          ],
+          "frames": [
+            9,
+            8,
+            8
+          ],
+          "highlight": 21,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "102": {
+          "rect": [
+            506,
+            128,
+            620,
+            173
+          ],
+          "frames": [
+            5,
+            4,
+            4
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            240
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": true,
+      "all_controls_freed_once": true,
+      "base": "0x10000000",
+      "alternate": false,
+      "management": false,
+      "allocation_failure_index": 1,
+      "controls": {
+        "100": {
+          "rect": [
+            506,
+            13,
+            619,
+            56
+          ],
+          "frames": [
+            1,
+            0,
+            0
+          ],
+          "highlight": 18,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "104": {
+          "rect": [
+            534,
+            243,
+            619,
+            289
+          ],
+          "frames": [
+            9,
+            8,
+            8
+          ],
+          "highlight": 21,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "102": {
+          "rect": [
+            506,
+            128,
+            620,
+            173
+          ],
+          "frames": [
+            5,
+            4,
+            4
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            240
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": true,
+      "all_controls_freed_once": true,
+      "base": "0x10000000",
+      "alternate": false,
+      "management": false,
+      "allocation_failure_index": 2,
+      "controls": {
+        "100": {
+          "rect": [
+            506,
+            13,
+            619,
+            56
+          ],
+          "frames": [
+            1,
+            0,
+            0
+          ],
+          "highlight": 18,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "101": {
+          "rect": [
+            506,
+            71,
+            619,
+            116
+          ],
+          "frames": [
+            3,
+            2,
+            2
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "102": {
+          "rect": [
+            506,
+            128,
+            620,
+            173
+          ],
+          "frames": [
+            5,
+            4,
+            4
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            240
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": false,
+      "all_controls_freed_once": true,
+      "base": "0x10000000",
+      "alternate": false,
+      "management": false,
+      "allocation_failure_index": 3,
+      "controls": {
+        "100": {
+          "rect": [
+            506,
+            13,
+            619,
+            56
+          ],
+          "frames": [
+            1,
+            0,
+            0
+          ],
+          "highlight": 18,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "101": {
+          "rect": [
+            506,
+            71,
+            619,
+            116
+          ],
+          "frames": [
+            3,
+            2,
+            2
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "104": {
+          "rect": [
+            534,
+            243,
+            619,
+            289
+          ],
+          "frames": [
+            9,
+            8,
+            8
+          ],
+          "highlight": 21,
+          "anchor": [
+            320,
+            297
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": true,
+      "all_controls_freed_once": true,
+      "base": "0x10000000",
+      "alternate": false,
+      "management": true,
+      "allocation_failure_index": null,
+      "controls": {
+        "100": {
+          "rect": [
+            506,
+            13,
+            619,
+            56
+          ],
+          "frames": [
+            1,
+            0,
+            0
+          ],
+          "highlight": 18,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "101": {
+          "rect": [
+            506,
+            71,
+            619,
+            116
+          ],
+          "frames": [
+            3,
+            2,
+            2
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "103": {
+          "rect": [
+            520,
+            186,
+            619,
+            230
+          ],
+          "frames": [
+            7,
+            6,
+            6
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "104": {
+          "rect": [
+            534,
+            243,
+            619,
+            289
+          ],
+          "frames": [
+            9,
+            8,
+            8
+          ],
+          "highlight": 21,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "102": {
+          "rect": [
+            506,
+            128,
+            620,
+            173
+          ],
+          "frames": [
+            5,
+            4,
+            4
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            240
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": true,
+      "all_controls_freed_once": true,
+      "base": "0x10000000",
+      "alternate": false,
+      "management": true,
+      "allocation_failure_index": 0,
+      "controls": {
+        "101": {
+          "rect": [
+            506,
+            71,
+            619,
+            116
+          ],
+          "frames": [
+            3,
+            2,
+            2
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "103": {
+          "rect": [
+            520,
+            186,
+            619,
+            230
+          ],
+          "frames": [
+            7,
+            6,
+            6
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "104": {
+          "rect": [
+            534,
+            243,
+            619,
+            289
+          ],
+          "frames": [
+            9,
+            8,
+            8
+          ],
+          "highlight": 21,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "102": {
+          "rect": [
+            506,
+            128,
+            620,
+            173
+          ],
+          "frames": [
+            5,
+            4,
+            4
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            240
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": true,
+      "all_controls_freed_once": true,
+      "base": "0x10000000",
+      "alternate": false,
+      "management": true,
+      "allocation_failure_index": 1,
+      "controls": {
+        "100": {
+          "rect": [
+            506,
+            13,
+            619,
+            56
+          ],
+          "frames": [
+            1,
+            0,
+            0
+          ],
+          "highlight": 18,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "103": {
+          "rect": [
+            520,
+            186,
+            619,
+            230
+          ],
+          "frames": [
+            7,
+            6,
+            6
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "104": {
+          "rect": [
+            534,
+            243,
+            619,
+            289
+          ],
+          "frames": [
+            9,
+            8,
+            8
+          ],
+          "highlight": 21,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "102": {
+          "rect": [
+            506,
+            128,
+            620,
+            173
+          ],
+          "frames": [
+            5,
+            4,
+            4
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            240
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": true,
+      "all_controls_freed_once": true,
+      "base": "0x10000000",
+      "alternate": false,
+      "management": true,
+      "allocation_failure_index": 2,
+      "controls": {
+        "100": {
+          "rect": [
+            506,
+            13,
+            619,
+            56
+          ],
+          "frames": [
+            1,
+            0,
+            0
+          ],
+          "highlight": 18,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "101": {
+          "rect": [
+            506,
+            71,
+            619,
+            116
+          ],
+          "frames": [
+            3,
+            2,
+            2
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "104": {
+          "rect": [
+            534,
+            243,
+            619,
+            289
+          ],
+          "frames": [
+            9,
+            8,
+            8
+          ],
+          "highlight": 21,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "102": {
+          "rect": [
+            506,
+            128,
+            620,
+            173
+          ],
+          "frames": [
+            5,
+            4,
+            4
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            240
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": true,
+      "all_controls_freed_once": true,
+      "base": "0x10000000",
+      "alternate": false,
+      "management": true,
+      "allocation_failure_index": 3,
+      "controls": {
+        "100": {
+          "rect": [
+            506,
+            13,
+            619,
+            56
+          ],
+          "frames": [
+            1,
+            0,
+            0
+          ],
+          "highlight": 18,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "101": {
+          "rect": [
+            506,
+            71,
+            619,
+            116
+          ],
+          "frames": [
+            3,
+            2,
+            2
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "103": {
+          "rect": [
+            520,
+            186,
+            619,
+            230
+          ],
+          "frames": [
+            7,
+            6,
+            6
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "102": {
+          "rect": [
+            506,
+            128,
+            620,
+            173
+          ],
+          "frames": [
+            5,
+            4,
+            4
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            240
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": false,
+      "all_controls_freed_once": true,
+      "base": "0x10000000",
+      "alternate": false,
+      "management": true,
+      "allocation_failure_index": 4,
+      "controls": {
+        "100": {
+          "rect": [
+            506,
+            13,
+            619,
+            56
+          ],
+          "frames": [
+            1,
+            0,
+            0
+          ],
+          "highlight": 18,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "101": {
+          "rect": [
+            506,
+            71,
+            619,
+            116
+          ],
+          "frames": [
+            3,
+            2,
+            2
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "103": {
+          "rect": [
+            520,
+            186,
+            619,
+            230
+          ],
+          "frames": [
+            7,
+            6,
+            6
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "104": {
+          "rect": [
+            534,
+            243,
+            619,
+            289
+          ],
+          "frames": [
+            9,
+            8,
+            8
+          ],
+          "highlight": 21,
+          "anchor": [
+            320,
+            297
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": true,
+      "all_controls_freed_once": true,
+      "base": "0x10000000",
+      "alternate": true,
+      "management": false,
+      "allocation_failure_index": null,
+      "controls": {
+        "105": {
+          "rect": [
+            535,
+            15,
+            619,
+            56
+          ],
+          "frames": [
+            11,
+            10,
+            10
+          ],
+          "highlight": 18,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "104": {
+          "rect": [
+            534,
+            186,
+            619,
+            232
+          ],
+          "frames": [
+            17,
+            16,
+            16
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "102": {
+          "rect": [
+            506,
+            71,
+            620,
+            116
+          ],
+          "frames": [
+            13,
+            12,
+            12
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            240
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": true,
+      "all_controls_freed_once": true,
+      "base": "0x10000000",
+      "alternate": true,
+      "management": false,
+      "allocation_failure_index": 0,
+      "controls": {
+        "104": {
+          "rect": [
+            534,
+            186,
+            619,
+            232
+          ],
+          "frames": [
+            17,
+            16,
+            16
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "102": {
+          "rect": [
+            506,
+            71,
+            620,
+            116
+          ],
+          "frames": [
+            13,
+            12,
+            12
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            240
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": true,
+      "all_controls_freed_once": true,
+      "base": "0x10000000",
+      "alternate": true,
+      "management": false,
+      "allocation_failure_index": 1,
+      "controls": {
+        "105": {
+          "rect": [
+            535,
+            15,
+            619,
+            56
+          ],
+          "frames": [
+            11,
+            10,
+            10
+          ],
+          "highlight": 18,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "102": {
+          "rect": [
+            506,
+            71,
+            620,
+            116
+          ],
+          "frames": [
+            13,
+            12,
+            12
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            240
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": false,
+      "all_controls_freed_once": true,
+      "base": "0x10000000",
+      "alternate": true,
+      "management": false,
+      "allocation_failure_index": 2,
+      "controls": {
+        "105": {
+          "rect": [
+            535,
+            15,
+            619,
+            56
+          ],
+          "frames": [
+            11,
+            10,
+            10
+          ],
+          "highlight": 18,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "104": {
+          "rect": [
+            534,
+            186,
+            619,
+            232
+          ],
+          "frames": [
+            17,
+            16,
+            16
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            297
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": true,
+      "all_controls_freed_once": true,
+      "base": "0x10000000",
+      "alternate": true,
+      "management": true,
+      "allocation_failure_index": null,
+      "controls": {
+        "105": {
+          "rect": [
+            535,
+            15,
+            619,
+            56
+          ],
+          "frames": [
+            11,
+            10,
+            10
+          ],
+          "highlight": 18,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "103": {
+          "rect": [
+            520,
+            129,
+            619,
+            173
+          ],
+          "frames": [
+            15,
+            14,
+            14
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "104": {
+          "rect": [
+            534,
+            186,
+            619,
+            232
+          ],
+          "frames": [
+            17,
+            16,
+            16
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "102": {
+          "rect": [
+            506,
+            71,
+            620,
+            116
+          ],
+          "frames": [
+            13,
+            12,
+            12
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            240
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": true,
+      "all_controls_freed_once": true,
+      "base": "0x10000000",
+      "alternate": true,
+      "management": true,
+      "allocation_failure_index": 0,
+      "controls": {
+        "103": {
+          "rect": [
+            520,
+            129,
+            619,
+            173
+          ],
+          "frames": [
+            15,
+            14,
+            14
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "104": {
+          "rect": [
+            534,
+            186,
+            619,
+            232
+          ],
+          "frames": [
+            17,
+            16,
+            16
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "102": {
+          "rect": [
+            506,
+            71,
+            620,
+            116
+          ],
+          "frames": [
+            13,
+            12,
+            12
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            240
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": true,
+      "all_controls_freed_once": true,
+      "base": "0x10000000",
+      "alternate": true,
+      "management": true,
+      "allocation_failure_index": 1,
+      "controls": {
+        "105": {
+          "rect": [
+            535,
+            15,
+            619,
+            56
+          ],
+          "frames": [
+            11,
+            10,
+            10
+          ],
+          "highlight": 18,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "104": {
+          "rect": [
+            534,
+            186,
+            619,
+            232
+          ],
+          "frames": [
+            17,
+            16,
+            16
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "102": {
+          "rect": [
+            506,
+            71,
+            620,
+            116
+          ],
+          "frames": [
+            13,
+            12,
+            12
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            240
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": true,
+      "all_controls_freed_once": true,
+      "base": "0x10000000",
+      "alternate": true,
+      "management": true,
+      "allocation_failure_index": 2,
+      "controls": {
+        "105": {
+          "rect": [
+            535,
+            15,
+            619,
+            56
+          ],
+          "frames": [
+            11,
+            10,
+            10
+          ],
+          "highlight": 18,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "103": {
+          "rect": [
+            520,
+            129,
+            619,
+            173
+          ],
+          "frames": [
+            15,
+            14,
+            14
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "102": {
+          "rect": [
+            506,
+            71,
+            620,
+            116
+          ],
+          "frames": [
+            13,
+            12,
+            12
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            240
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": false,
+      "all_controls_freed_once": true,
+      "base": "0x10000000",
+      "alternate": true,
+      "management": true,
+      "allocation_failure_index": 3,
+      "controls": {
+        "105": {
+          "rect": [
+            535,
+            15,
+            619,
+            56
+          ],
+          "frames": [
+            11,
+            10,
+            10
+          ],
+          "highlight": 18,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "103": {
+          "rect": [
+            520,
+            129,
+            619,
+            173
+          ],
+          "frames": [
+            15,
+            14,
+            14
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "104": {
+          "rect": [
+            534,
+            186,
+            619,
+            232
+          ],
+          "frames": [
+            17,
+            16,
+            16
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            297
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": true,
+      "all_controls_freed_once": true,
+      "base": "0x18000000",
+      "alternate": false,
+      "management": false,
+      "allocation_failure_index": null,
+      "controls": {
+        "100": {
+          "rect": [
+            506,
+            13,
+            619,
+            56
+          ],
+          "frames": [
+            1,
+            0,
+            0
+          ],
+          "highlight": 18,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "101": {
+          "rect": [
+            506,
+            71,
+            619,
+            116
+          ],
+          "frames": [
+            3,
+            2,
+            2
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "104": {
+          "rect": [
+            534,
+            243,
+            619,
+            289
+          ],
+          "frames": [
+            9,
+            8,
+            8
+          ],
+          "highlight": 21,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "102": {
+          "rect": [
+            506,
+            128,
+            620,
+            173
+          ],
+          "frames": [
+            5,
+            4,
+            4
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            240
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": true,
+      "all_controls_freed_once": true,
+      "base": "0x18000000",
+      "alternate": false,
+      "management": false,
+      "allocation_failure_index": 0,
+      "controls": {
+        "101": {
+          "rect": [
+            506,
+            71,
+            619,
+            116
+          ],
+          "frames": [
+            3,
+            2,
+            2
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "104": {
+          "rect": [
+            534,
+            243,
+            619,
+            289
+          ],
+          "frames": [
+            9,
+            8,
+            8
+          ],
+          "highlight": 21,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "102": {
+          "rect": [
+            506,
+            128,
+            620,
+            173
+          ],
+          "frames": [
+            5,
+            4,
+            4
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            240
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": true,
+      "all_controls_freed_once": true,
+      "base": "0x18000000",
+      "alternate": false,
+      "management": false,
+      "allocation_failure_index": 1,
+      "controls": {
+        "100": {
+          "rect": [
+            506,
+            13,
+            619,
+            56
+          ],
+          "frames": [
+            1,
+            0,
+            0
+          ],
+          "highlight": 18,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "104": {
+          "rect": [
+            534,
+            243,
+            619,
+            289
+          ],
+          "frames": [
+            9,
+            8,
+            8
+          ],
+          "highlight": 21,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "102": {
+          "rect": [
+            506,
+            128,
+            620,
+            173
+          ],
+          "frames": [
+            5,
+            4,
+            4
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            240
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": true,
+      "all_controls_freed_once": true,
+      "base": "0x18000000",
+      "alternate": false,
+      "management": false,
+      "allocation_failure_index": 2,
+      "controls": {
+        "100": {
+          "rect": [
+            506,
+            13,
+            619,
+            56
+          ],
+          "frames": [
+            1,
+            0,
+            0
+          ],
+          "highlight": 18,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "101": {
+          "rect": [
+            506,
+            71,
+            619,
+            116
+          ],
+          "frames": [
+            3,
+            2,
+            2
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "102": {
+          "rect": [
+            506,
+            128,
+            620,
+            173
+          ],
+          "frames": [
+            5,
+            4,
+            4
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            240
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": false,
+      "all_controls_freed_once": true,
+      "base": "0x18000000",
+      "alternate": false,
+      "management": false,
+      "allocation_failure_index": 3,
+      "controls": {
+        "100": {
+          "rect": [
+            506,
+            13,
+            619,
+            56
+          ],
+          "frames": [
+            1,
+            0,
+            0
+          ],
+          "highlight": 18,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "101": {
+          "rect": [
+            506,
+            71,
+            619,
+            116
+          ],
+          "frames": [
+            3,
+            2,
+            2
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "104": {
+          "rect": [
+            534,
+            243,
+            619,
+            289
+          ],
+          "frames": [
+            9,
+            8,
+            8
+          ],
+          "highlight": 21,
+          "anchor": [
+            320,
+            297
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": true,
+      "all_controls_freed_once": true,
+      "base": "0x18000000",
+      "alternate": false,
+      "management": true,
+      "allocation_failure_index": null,
+      "controls": {
+        "100": {
+          "rect": [
+            506,
+            13,
+            619,
+            56
+          ],
+          "frames": [
+            1,
+            0,
+            0
+          ],
+          "highlight": 18,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "101": {
+          "rect": [
+            506,
+            71,
+            619,
+            116
+          ],
+          "frames": [
+            3,
+            2,
+            2
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "103": {
+          "rect": [
+            520,
+            186,
+            619,
+            230
+          ],
+          "frames": [
+            7,
+            6,
+            6
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "104": {
+          "rect": [
+            534,
+            243,
+            619,
+            289
+          ],
+          "frames": [
+            9,
+            8,
+            8
+          ],
+          "highlight": 21,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "102": {
+          "rect": [
+            506,
+            128,
+            620,
+            173
+          ],
+          "frames": [
+            5,
+            4,
+            4
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            240
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": true,
+      "all_controls_freed_once": true,
+      "base": "0x18000000",
+      "alternate": false,
+      "management": true,
+      "allocation_failure_index": 0,
+      "controls": {
+        "101": {
+          "rect": [
+            506,
+            71,
+            619,
+            116
+          ],
+          "frames": [
+            3,
+            2,
+            2
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "103": {
+          "rect": [
+            520,
+            186,
+            619,
+            230
+          ],
+          "frames": [
+            7,
+            6,
+            6
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "104": {
+          "rect": [
+            534,
+            243,
+            619,
+            289
+          ],
+          "frames": [
+            9,
+            8,
+            8
+          ],
+          "highlight": 21,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "102": {
+          "rect": [
+            506,
+            128,
+            620,
+            173
+          ],
+          "frames": [
+            5,
+            4,
+            4
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            240
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": true,
+      "all_controls_freed_once": true,
+      "base": "0x18000000",
+      "alternate": false,
+      "management": true,
+      "allocation_failure_index": 1,
+      "controls": {
+        "100": {
+          "rect": [
+            506,
+            13,
+            619,
+            56
+          ],
+          "frames": [
+            1,
+            0,
+            0
+          ],
+          "highlight": 18,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "103": {
+          "rect": [
+            520,
+            186,
+            619,
+            230
+          ],
+          "frames": [
+            7,
+            6,
+            6
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "104": {
+          "rect": [
+            534,
+            243,
+            619,
+            289
+          ],
+          "frames": [
+            9,
+            8,
+            8
+          ],
+          "highlight": 21,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "102": {
+          "rect": [
+            506,
+            128,
+            620,
+            173
+          ],
+          "frames": [
+            5,
+            4,
+            4
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            240
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": true,
+      "all_controls_freed_once": true,
+      "base": "0x18000000",
+      "alternate": false,
+      "management": true,
+      "allocation_failure_index": 2,
+      "controls": {
+        "100": {
+          "rect": [
+            506,
+            13,
+            619,
+            56
+          ],
+          "frames": [
+            1,
+            0,
+            0
+          ],
+          "highlight": 18,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "101": {
+          "rect": [
+            506,
+            71,
+            619,
+            116
+          ],
+          "frames": [
+            3,
+            2,
+            2
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "104": {
+          "rect": [
+            534,
+            243,
+            619,
+            289
+          ],
+          "frames": [
+            9,
+            8,
+            8
+          ],
+          "highlight": 21,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "102": {
+          "rect": [
+            506,
+            128,
+            620,
+            173
+          ],
+          "frames": [
+            5,
+            4,
+            4
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            240
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": true,
+      "all_controls_freed_once": true,
+      "base": "0x18000000",
+      "alternate": false,
+      "management": true,
+      "allocation_failure_index": 3,
+      "controls": {
+        "100": {
+          "rect": [
+            506,
+            13,
+            619,
+            56
+          ],
+          "frames": [
+            1,
+            0,
+            0
+          ],
+          "highlight": 18,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "101": {
+          "rect": [
+            506,
+            71,
+            619,
+            116
+          ],
+          "frames": [
+            3,
+            2,
+            2
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "103": {
+          "rect": [
+            520,
+            186,
+            619,
+            230
+          ],
+          "frames": [
+            7,
+            6,
+            6
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "102": {
+          "rect": [
+            506,
+            128,
+            620,
+            173
+          ],
+          "frames": [
+            5,
+            4,
+            4
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            240
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": false,
+      "all_controls_freed_once": true,
+      "base": "0x18000000",
+      "alternate": false,
+      "management": true,
+      "allocation_failure_index": 4,
+      "controls": {
+        "100": {
+          "rect": [
+            506,
+            13,
+            619,
+            56
+          ],
+          "frames": [
+            1,
+            0,
+            0
+          ],
+          "highlight": 18,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "101": {
+          "rect": [
+            506,
+            71,
+            619,
+            116
+          ],
+          "frames": [
+            3,
+            2,
+            2
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "103": {
+          "rect": [
+            520,
+            186,
+            619,
+            230
+          ],
+          "frames": [
+            7,
+            6,
+            6
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "104": {
+          "rect": [
+            534,
+            243,
+            619,
+            289
+          ],
+          "frames": [
+            9,
+            8,
+            8
+          ],
+          "highlight": 21,
+          "anchor": [
+            320,
+            297
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": true,
+      "all_controls_freed_once": true,
+      "base": "0x18000000",
+      "alternate": true,
+      "management": false,
+      "allocation_failure_index": null,
+      "controls": {
+        "105": {
+          "rect": [
+            535,
+            15,
+            619,
+            56
+          ],
+          "frames": [
+            11,
+            10,
+            10
+          ],
+          "highlight": 18,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "104": {
+          "rect": [
+            534,
+            186,
+            619,
+            232
+          ],
+          "frames": [
+            17,
+            16,
+            16
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "102": {
+          "rect": [
+            506,
+            71,
+            620,
+            116
+          ],
+          "frames": [
+            13,
+            12,
+            12
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            240
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": true,
+      "all_controls_freed_once": true,
+      "base": "0x18000000",
+      "alternate": true,
+      "management": false,
+      "allocation_failure_index": 0,
+      "controls": {
+        "104": {
+          "rect": [
+            534,
+            186,
+            619,
+            232
+          ],
+          "frames": [
+            17,
+            16,
+            16
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "102": {
+          "rect": [
+            506,
+            71,
+            620,
+            116
+          ],
+          "frames": [
+            13,
+            12,
+            12
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            240
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": true,
+      "all_controls_freed_once": true,
+      "base": "0x18000000",
+      "alternate": true,
+      "management": false,
+      "allocation_failure_index": 1,
+      "controls": {
+        "105": {
+          "rect": [
+            535,
+            15,
+            619,
+            56
+          ],
+          "frames": [
+            11,
+            10,
+            10
+          ],
+          "highlight": 18,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "102": {
+          "rect": [
+            506,
+            71,
+            620,
+            116
+          ],
+          "frames": [
+            13,
+            12,
+            12
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            240
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": false,
+      "all_controls_freed_once": true,
+      "base": "0x18000000",
+      "alternate": true,
+      "management": false,
+      "allocation_failure_index": 2,
+      "controls": {
+        "105": {
+          "rect": [
+            535,
+            15,
+            619,
+            56
+          ],
+          "frames": [
+            11,
+            10,
+            10
+          ],
+          "highlight": 18,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "104": {
+          "rect": [
+            534,
+            186,
+            619,
+            232
+          ],
+          "frames": [
+            17,
+            16,
+            16
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            297
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": true,
+      "all_controls_freed_once": true,
+      "base": "0x18000000",
+      "alternate": true,
+      "management": true,
+      "allocation_failure_index": null,
+      "controls": {
+        "105": {
+          "rect": [
+            535,
+            15,
+            619,
+            56
+          ],
+          "frames": [
+            11,
+            10,
+            10
+          ],
+          "highlight": 18,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "103": {
+          "rect": [
+            520,
+            129,
+            619,
+            173
+          ],
+          "frames": [
+            15,
+            14,
+            14
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "104": {
+          "rect": [
+            534,
+            186,
+            619,
+            232
+          ],
+          "frames": [
+            17,
+            16,
+            16
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "102": {
+          "rect": [
+            506,
+            71,
+            620,
+            116
+          ],
+          "frames": [
+            13,
+            12,
+            12
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            240
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": true,
+      "all_controls_freed_once": true,
+      "base": "0x18000000",
+      "alternate": true,
+      "management": true,
+      "allocation_failure_index": 0,
+      "controls": {
+        "103": {
+          "rect": [
+            520,
+            129,
+            619,
+            173
+          ],
+          "frames": [
+            15,
+            14,
+            14
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "104": {
+          "rect": [
+            534,
+            186,
+            619,
+            232
+          ],
+          "frames": [
+            17,
+            16,
+            16
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "102": {
+          "rect": [
+            506,
+            71,
+            620,
+            116
+          ],
+          "frames": [
+            13,
+            12,
+            12
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            240
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": true,
+      "all_controls_freed_once": true,
+      "base": "0x18000000",
+      "alternate": true,
+      "management": true,
+      "allocation_failure_index": 1,
+      "controls": {
+        "105": {
+          "rect": [
+            535,
+            15,
+            619,
+            56
+          ],
+          "frames": [
+            11,
+            10,
+            10
+          ],
+          "highlight": 18,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "104": {
+          "rect": [
+            534,
+            186,
+            619,
+            232
+          ],
+          "frames": [
+            17,
+            16,
+            16
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "102": {
+          "rect": [
+            506,
+            71,
+            620,
+            116
+          ],
+          "frames": [
+            13,
+            12,
+            12
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            240
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": true,
+      "all_controls_freed_once": true,
+      "base": "0x18000000",
+      "alternate": true,
+      "management": true,
+      "allocation_failure_index": 2,
+      "controls": {
+        "105": {
+          "rect": [
+            535,
+            15,
+            619,
+            56
+          ],
+          "frames": [
+            11,
+            10,
+            10
+          ],
+          "highlight": 18,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "103": {
+          "rect": [
+            520,
+            129,
+            619,
+            173
+          ],
+          "frames": [
+            15,
+            14,
+            14
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "102": {
+          "rect": [
+            506,
+            71,
+            620,
+            116
+          ],
+          "frames": [
+            13,
+            12,
+            12
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            240
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    },
+    {
+      "callback_and_ego_dispatch_verified": false,
+      "all_controls_freed_once": true,
+      "base": "0x18000000",
+      "alternate": true,
+      "management": true,
+      "allocation_failure_index": 3,
+      "controls": {
+        "105": {
+          "rect": [
+            535,
+            15,
+            619,
+            56
+          ],
+          "frames": [
+            11,
+            10,
+            10
+          ],
+          "highlight": 18,
+          "anchor": [
+            320,
+            240
+          ]
+        },
+        "103": {
+          "rect": [
+            520,
+            129,
+            619,
+            173
+          ],
+          "frames": [
+            15,
+            14,
+            14
+          ],
+          "highlight": 19,
+          "anchor": [
+            320,
+            297
+          ]
+        },
+        "104": {
+          "rect": [
+            534,
+            186,
+            619,
+            232
+          ],
+          "frames": [
+            17,
+            16,
+            16
+          ],
+          "highlight": 20,
+          "anchor": [
+            320,
+            297
+          ]
+        }
+      },
+      "registers_flags_stack_preserved": true,
+      "seh_chain_preserved": true,
+      "parent_chain_valid": true,
+      "hit_rectangles_nonoverlapping": true
+    }
+  ]
+}

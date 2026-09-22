@@ -1,0 +1,9 @@
+{
+  "method": "Executed the published Python patch tool against local supported original and prior diagnostic copies. No game launch or installation.",
+  "original_rebuild_matches_delivered_patch": true,
+  "diagnostic_rebuild_matches_delivered_patch": true,
+  "undo_matches_original": true,
+  "unsupported_input_rejected": true,
+  "existing_output_rejected": true,
+  "patched_sha256": "9683b154dddd7cdabe87562db6c9f117ac3b74ee37cbd8e98c40db6f5841351a"
+}

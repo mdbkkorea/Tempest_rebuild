@@ -1,0 +1,7 @@
+{
+  "all_changed_original_bytes_accounted_for": true,
+  "adventure_id100_preserved": true,
+  "callback_and_dispatch_byte_identical": true,
+  "original_and_diagnostic_rebuilds_identical": true,
+  "rollback_original_hash_exact": true
+}

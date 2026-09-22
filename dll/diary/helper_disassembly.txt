@@ -1,0 +1,36 @@
+104b0000 9c                       pushfd
+104b0001 60                       pushal
+104b0002 e800000000               call 0x104b0007
+104b0007 5d                       pop ebp
+104b0008 81ed07004b00             sub ebp, 0x4b0007
+104b000e 6a74                     push 0x74
+104b0010 e86e22bfff               call 0x100a2283
+104b0015 83c404                   add esp, 4
+104b0018 85c0                     test eax, eax
+104b001a 0f8440000000             je 0x104b0060
+104b0020 83fbff                   cmp ebx, -1
+104b0023 0f850f000000             jne 0x104b0038
+104b0029 6a00                     push 0
+104b002b 6a14                     push 0x14
+104b002d 6a04                     push 4
+104b002f 6a04                     push 4
+104b0031 6a05                     push 5
+104b0033 e90a000000               jmp 0x104b0042
+104b0038 6a00                     push 0
+104b003a 6a13                     push 0x13
+104b003c 6a0c                     push 0xc
+104b003e 6a0c                     push 0xc
+104b0040 6a0d                     push 0xd
+104b0042 57                       push edi
+104b0043 6a00                     push 0
+104b0045 6a00                     push 0
+104b0047 68f0000000               push 0xf0
+104b004c 6840010000               push 0x140
+104b0051 6a66                     push 0x66
+104b0053 ffb55c234700             push dword ptr [ebp + 0x47235c]
+104b0059 8bc8                     mov ecx, eax
+104b005b e80063b9ff               call 0x10046360
+104b0060 89b544dd4800             mov dword ptr [ebp + 0x48dd44], esi
+104b0066 61                       popal
+104b0067 9d                       popfd
+104b0068 c3                       ret
