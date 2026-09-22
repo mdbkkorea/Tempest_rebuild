@@ -18,3 +18,7 @@ Next: recover other character content while retaining the verified navigation an
 ## DLL patch documentation
 
 The additive Diary patch is documented in dll/README.md with exact edits, supported hashes, helper source bytes and a reversible patch tool. The earlier Adventure redirect is explicitly historical. Full game binaries remain excluded.
+
+## Expanded project goals — planning
+
+The user set broader goals: maximum original-material reuse, EGO recovery, SRPG combat with stage-like isolated arenas, explicit flying-enemy counterplay, and a conditional modern-engine fallback. docs/ROADMAP.md records proposed phases and decision gates. Battle feasibility remains unassessed; no engine switch or battle patch has been implemented.

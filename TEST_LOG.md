@@ -17,3 +17,7 @@ Copied reproducible builders and preserved evidence locally. Game binaries, gene
 ## DLL patch publication checks
 
 Rebuilt the additive Diary DLL from both supported original and historical diagnostic inputs using the published helper.hex patcher; outputs matched the delivered SHA-256. Undo reproduced the original. Unsupported inputs and existing output paths were rejected. Archived40-case CPU-emulation evidence is included but was not rerun. No game installation occurred.
+
+## Roadmap planning
+
+Recorded expanded user goals and proposed acceptance gates. Reviewed existing restoration status and official Godot building-block documentation. No new combat tests, engine feasibility results or VM installations are claimed.

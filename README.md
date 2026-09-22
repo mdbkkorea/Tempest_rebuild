@@ -10,6 +10,10 @@ User-reported Windows 98 / 86Box tests confirm Diary → ID102 → EGO, access a
 
 Only Clausewitz currently has recovered biography content: eleven passages found in the shipped `123.adv` prototype. The remaining nine pages are explicitly labeled navigation diagnostics, not recovered biographies. The dialogue presentation is reconstructed, not established original EGO design.
 
+## Project direction
+
+Reuse original Tempest material, restore EGO, and investigate a compact SRPG battle redesign retaining a stage-like feel. Audit the original engine first; consider a modern engine only after a bounded feasibility review. See [the proposed roadmap](docs/ROADMAP.md).
+
 ## Files
 
 - `dll/README.md`: exact Diary DLL changes, reproducible patching, and rollback.
